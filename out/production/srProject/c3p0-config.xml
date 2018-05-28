@@ -1,0 +1,11 @@
+<c3p0-config>
+    <default-config>
+        <property name="driverClass">net.ucanaccess.jdbc.UcanaccessDriver</property>
+        <property name="jdbcUrl">jdbc:ucanaccess://D:\酷卡\MMSCRM.mdb</property>
+        <property name="initialPoolSize">10</property>
+        <property name="maxIdleTime">30</property>
+        <property name="maxPoolSize">20</property>
+        <property name="minPoolSize">5</property>
+        <property name="maxStatements">200</property>
+    </default-config>
+</c3p0-config>
